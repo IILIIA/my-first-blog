@@ -25,7 +25,7 @@ SECRET_KEY = 'tobf9!h-yz&fe0gui&5!p)^tq_x(oy8_v=u*%d=x=jojedx=*^'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'pythonanywhere.com']
+ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com']
 
 
 # Application definition
@@ -120,3 +120,4 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATUC_ROOT = os.path.join(BASE_DIR, 'static')
+MESSAGE_STORAGE = 'django.contrib.messages.storage.session.SessionStorage'
